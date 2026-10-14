@@ -1,0 +1,16 @@
+{
+  "name": "shreddernator-backend",
+  "version": "0.0.1",
+  "description": "Shreddernator backend",
+  "license": "MIT",
+  "author": "Andrew De Leonardis",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}
