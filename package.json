@@ -7,7 +7,9 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "npx tsc",
+    "main": "node dist/index.js"
   },
   "devDependencies": {
     "@types/node": "^26.6.5",
