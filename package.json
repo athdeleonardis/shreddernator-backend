@@ -8,8 +8,11 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "build": "npx tsc",
-    "main": "node dist/index.js"
+    "build": "tsc",
+    "compile": "tsc --noEmit",
+    "dev": "tsc --watch",
+    "main": "node dist/index.js",
+    "clean": "npx rimraf dist"
   },
   "devDependencies": {
     "@types/node": "^26.6.5",
